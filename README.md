@@ -10,4 +10,4 @@ ADD NE METHODS TO GET UTC TIME, SPEED AND COURSE
 *    unsigned char getUtcDayOfMonth();
 *    double getSpeedKnots();
 *    double getCourse();
- *   sl868aCachedDataT getData();
+*   sl868aCachedDataT getData();
