@@ -7,9 +7,8 @@
     It shows also the number of the satellites  are visible by the GPS receiver
     This information is useful to well understand the accuracy of the localization information
 
-    created 27 May 2015
-    by Seve (seve@axelelettronica.it)
-    additional UTC and move methods  provided by Gabriel de Fombelle gabriel.de.fombelle@gmail.com http://www.line-up.io
+    created 27 July 2016
+    include additional UTC and move methods  provided by Gabriel de Fombelle - line-up.io - gabriel.de.fombelle@gmail.com http://www.line-up.io
     This example is in the public domain
     https://github.com/gdefombelle
     
