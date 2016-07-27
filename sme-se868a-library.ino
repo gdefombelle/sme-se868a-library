@@ -1,6 +1,6 @@
 /*
     SmeGPS Library - Localization and Time Information
-
+   
     This example shows how to retrieve the GPS localization information + Time:
     Latitude, Longitude,  Altitude, Time UTC
 
@@ -9,19 +9,20 @@
 
     created 27 May 2015
     by Seve (seve@axelelettronica.it)
-
+    additional UTC and move methods  provided by Gabriel de Fombelle gabriel.de.fombelle@gmail.com http://www.line-up.io
     This example is in the public domain
-    https://github.com/ameltech
-
+    https://github.com/gdefombelle
+    
     SE868  more information available here:
     http://www.telit.com/products/product-service-selector/product-service-selector/show/product/jupiter-se868-as/
+
+    
  */
 
 #include <Wire.h>
 
 #include "sl868a.h"
 #include <Arduino.h>
-#include <time.h>
 int led_status = HIGH;
 
 // the setup function runs once when you press reset or power the board
@@ -48,7 +49,7 @@ void loop() {
     double speed_knots =0;
     double course = 0;
     sl868aCachedDataT data;
-    time_t _time = NULL;
+
     delay(5);
 
     if (smeGps.ready()) {
